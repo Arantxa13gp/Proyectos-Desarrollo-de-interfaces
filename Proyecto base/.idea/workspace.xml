@@ -93,30 +93,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.Android.executor": "Run",
-    "Android App.app.androidApp.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "Gradle.Escritorio.executor": "Run",
-    "Gradle.app.desktopApp [hot] 🔥.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "android.gradle.sync.needed": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tarde/Documentos/Proyecto base",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}]]></component>
   <component name="RunManager" selected="Gradle.Escritorio">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
