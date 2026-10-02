@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9def518-1732-4c8e-bda0-23754b178a87" name="Changes" comment="" />
+    <list default="true" id="a9def518-1732-4c8e-bda0-23754b178a87" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/models/BasicModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/models/GaleriaArte.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/states/BaseUiState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/states/GaleriaArteState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/viewModels/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/viewModels/GaleriaArteVM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/views/BaseScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto 1/app/shared/src/commonMain/kotlin/org/example/project/views/GaleriaArteScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +58,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Arantxa13gp&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Arantxa13gp/Proyectos-Desarrollo-de-interfaces.git&quot;,
+    &quot;accountId&quot;: &quot;ebba0d95-169f-45c6-bc54-9dc28dbfddf0&quot;
+  }
+}</component>
   <component name="KmpPackageLockUpdaterState">{
   &quot;jsModulesKotlinGradlePluginVersion&quot;: {
     &quot;:core&quot;: &quot;2.4.20&quot;,
@@ -64,13 +86,8 @@
   }
 }</component>
   <component name="KotlinMultiplatform" KONAN_HOME="$USER_HOME$/.konan/kotlin-native-prebuilt-linux-x86_64-2.4.20">
-    <executable TARGET="ios_arm64" TARGET_NAME="iosArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":core:" IS_TEST="true">
-      <variant NAME="Debug" GRADLE_TASK=":core:linkDebugTestIosArm64" FILE="$PROJECT_DIR$/core/build/bin/iosArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
-        <envs />
-      </variant>
-    </executable>
-    <executable TARGET="ios_arm64" TARGET_NAME="iosArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":app:shared:" IS_TEST="true">
-      <variant NAME="Debug" GRADLE_TASK=":app:shared:linkDebugTestIosArm64" FILE="$PROJECT_DIR$/app/shared/build/bin/iosArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+    <executable TARGET="ios_simulator_arm64" TARGET_NAME="iosSimulatorArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":core:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":core:linkDebugTestIosSimulatorArm64" FILE="$PROJECT_DIR$/core/build/bin/iosSimulatorArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
         <envs />
       </variant>
     </executable>
@@ -79,8 +96,13 @@
         <envs />
       </variant>
     </executable>
-    <executable TARGET="ios_simulator_arm64" TARGET_NAME="iosSimulatorArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":core:" IS_TEST="true">
-      <variant NAME="Debug" GRADLE_TASK=":core:linkDebugTestIosSimulatorArm64" FILE="$PROJECT_DIR$/core/build/bin/iosSimulatorArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+    <executable TARGET="ios_arm64" TARGET_NAME="iosArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":core:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":core:linkDebugTestIosArm64" FILE="$PROJECT_DIR$/core/build/bin/iosArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
+        <envs />
+      </variant>
+    </executable>
+    <executable TARGET="ios_arm64" TARGET_NAME="iosArm64" EXECUTABLE_NAME="test" PROJECT_PREFIX=":app:shared:" IS_TEST="true">
+      <variant NAME="Debug" GRADLE_TASK=":app:shared:linkDebugTestIosArm64" FILE="$PROJECT_DIR$/app/shared/build/bin/iosArm64/debugTest/test.kexe" WORKING_DIR="" PROGRAM_PARAMS="">
         <envs />
       </variant>
     </executable>
@@ -93,7 +115,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tarde/Documentos/Proyectos Desarrollo de interfaces"
   }
+}]]></component>
   <component name="RunManager" selected="Gradle.Escritorio">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
