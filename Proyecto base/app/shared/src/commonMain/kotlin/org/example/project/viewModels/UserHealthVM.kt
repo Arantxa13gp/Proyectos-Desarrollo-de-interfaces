@@ -13,6 +13,7 @@ class UserHetalthVM : ViewModel() {
     private val _uiState = MutableStateFlow(UserHealthState())
     val uiState: StateFlow<UserHealthState> = _uiState.asStateFlow()
 
+
     fun objetivo() : Boolean{
         val userHealth = _uiState.value.userHealth
         return userHealth !== null && userHealth.nPasos >= 10000

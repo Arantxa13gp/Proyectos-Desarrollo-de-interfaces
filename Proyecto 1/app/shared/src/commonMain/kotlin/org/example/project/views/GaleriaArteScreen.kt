@@ -17,16 +17,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-
-import org.example.project.models.GaleriaArte
 import org.example.project.viewModels.GaleriaArteVM
 
 @Composable
 fun BaseScreen(viewModel: GaleriaArteVM) {
     val (galeriaArte) = viewModel.uiState.collectAsState().value
-
-    Column(
-    ){
-
-    }
 }

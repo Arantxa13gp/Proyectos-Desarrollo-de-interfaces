@@ -10,6 +10,6 @@ import org.example.project.views.BaseScreen
 fun App() {
     MaterialTheme {
         val viewModel: GaleriaArteVM = viewModel { GaleriaArteVM() }
-        BaseScreen(viewModel = viewModel)
+        GaleriaArteScreen(viewModel = viewModel)
     }
 }
