@@ -1,10 +1,10 @@
 package org.example.project.models
 data class GaleriaArte(
-    val id: Int,
-    val titulo: String,
-    val artista: String,
-    val añoCreacion: Int,
-    val descripcion: String
+    var id: Int,
+    var titulo: String,
+    var artista: String,
+    var añoCreacion: Int,
+    var descripcion: String
 
 ){
     fun categoriaObra():String{
